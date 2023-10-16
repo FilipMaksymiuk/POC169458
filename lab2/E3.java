@@ -8,6 +8,6 @@ public class E3 {
     }
     public static int generateRandomIntInRange(int a,int b){
         Random random = new Random();
-        return random.nextInt(a,b);
+        return random.nextInt(a,b+1);
     }
 }
